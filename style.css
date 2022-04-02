@@ -1,0 +1,42 @@
+body{
+    background-size: cover;
+    background: linear-gradient(#e66465, #9198e5);
+    }
+
+.heading{
+    font-size: 23px;
+    width:100%;
+    margin:0px;
+
+}   
+
+#start , #number_of_objects , #status{
+font-size: 18px;
+
+}
+
+canvas{
+    border:2px solid white;
+    border-radius: 10px;
+    margin-top: 130px;
+    box-shadow:5px 5px 30px grey;
+}
+
+.copyright_footer{
+    position:fixed;
+    bottom:0;
+    color:white;
+    width:100%;
+    background:blue;
+    line-height:2;
+    text-align: center;
+}
+
+#status , #number_of_objects{
+    display: inline;
+    
+}
+
+#status{
+    margin: 5px;
+}
